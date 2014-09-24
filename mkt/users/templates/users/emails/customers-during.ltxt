@@ -1,0 +1,14 @@
+{% extends 'users/emails/base.ltxt' -%}
+{% block content %}
+{% trans link='', faq='https://support.mozilla.org/kb/use-firefox-accounts-manage-your-marketplace-apps' %}
+Dear Firefox Marketplace user,
+
+Firefox Marketplace has switched to Firefox Accounts to offer a more integrated experience across all Mozilla services and products. Having a Firefox Account lets you access your existing Marketplace apps and seamlessly enjoy your apps on multiple devices, with more services coming soon.
+
+Updating your account is easy, simply sign in and verify your account. Click here to get started. (note: you’ll be prompted to create a new password)
+
+{{ link }}
+
+To learn more about Firefox Accounts and find detailed information on how to update your account, please refer to this article on Mozilla support: {{ faq }}
+{% endtrans %}
+{% endblock %}

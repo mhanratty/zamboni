@@ -1,0 +1,7 @@
+{% extends 'users/emails/base.html' -%}
+{% block content %}
+{% trans faq='https://support.mozilla.org/en-US/kb/use-firefox-accounts-manage-your-marketplace-apps' %}
+<p>Soon, Firefox Marketplace will retire its current user sign-in system (Persona) in favor of a far more robust user account system we’re calling Firefox Accounts. For more information, please see the <a href="{{ faq }}">Firefox Accounts FAQ</a>.</p>
+<p>When the transition from Persona to Firefox Accounts is ready, you’ll receive an email with an activation link.</p>
+{% endtrans %}
+{% endblock %}

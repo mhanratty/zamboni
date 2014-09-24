@@ -1,0 +1,10 @@
+{% extends 'users/emails/base.html' -%}
+{% block content %}
+{% trans link='', faq='https://support.mozilla.org/en-US/kb/use-firefox-accounts-manage-your-marketplace-apps' %}
+<p>To access and manage your app(s) listed on Firefox Marketplace, you must activate your new Firefox Account. by simply clicking this link and creating a new password:</p>[
+
+{{ link }}
+
+<p>That’s it! For more information, please see the <a href="{{ faq }}">Firefox Accounts FAQ</a>.</p>
+{% endtrans %}
+{% endblock %}
