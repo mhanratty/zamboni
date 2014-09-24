@@ -1,7 +1,7 @@
 {% extends 'users/emails/base.ltxt' -%}
 {% block content %}
 {% trans link='', faq='https://support.mozilla.org/kb/use-firefox-accounts-manage-your-marketplace-apps' %}
-To access and manage your app(s) listed on Firefox Marketplace, you must activate your new Firefox Account. by simply clicking this link and creating a new password:
+To access and manage your app(s) listed on Firefox Marketplace, you must activate your new Firefox Account. Simply click this link and create a new password:
 
 {{ link }}
 
